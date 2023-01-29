@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <!-- gooogle font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@600&family=Montserrat:wght@500&family=Open+Sans:ital@1&family=Poppins&family=Work+Sans:wght@600&display=swap"
+        rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/a733e89408.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- DaisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.49.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        primaryColor: '#10101A',
+                    },
+                    fontFamily: {
+                        poppins: ['Poppins', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <section class="bg-primaryColor text-white font-poppins h-full w-full">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between md:px-10 md:py-5">
+                <h1 class="font-semibold md:text-xl ml-5 mt-5">I'm <span class="md:text-5xl text-3xl">Mosta<span
+                            class="text-yellow-500 underline">Fizz</span></span></h1>
+                <ul class="text-xl flex flex-col md:flex-row ml-4 gap-4">
+                    <li>Projects</li>
+                    <li>Github</li>
+                    <li>OnGoing Project</li>
+                </ul>
+                <button class="btn btn-outline text-yellow-400 border-yellow-300 m-4">Hire
+                    Me</button>
+            </div>
+            <!-- banner -->
+            <div class="md:px-20 md:mt-20 px-4 py-4">
+                <h1 class="md:text-3xl text-xl mb-5">Competitive profile link:</h1>
+                <div class="flex flex-col md:flex-row">
+                    <div class="flex md:gap-5 gap-10 mb-5 md:w-1/2 w-full">
+                        <a href="https://codeforces.com/profile/_MostaFiz"><img src="./images/codeforces.webp"
+                                class="rounded md:w-[100px] md:h-[100px] w-[50px] h-[50px]" alt=""></a>
+                        <a href="https://www.codechef.com/users/mostafizur_rah"> <img src="./images/codechef.png"
+                                class="rounded md:w-[100px] md:h-[100px] w-[50px] h-[50px]" alt=""></a>
+                        <a href="https://leetcode.com/MinasZero/"><img src="./images/leetcode.jpg"
+                                class="rounded md:w-[100px] md:h-[100px] w-[50px] h-[50px]" alt=""></a>
+                        <a href="https://lightoj.com/user/mostafizurra1">
+                            <img src="./images/lightoj.png" class="rounded md:w-[100px] md:h-[100px] w-[50px] h-[50px]"
+                                height="100" width="100" alt="">
+                        </a>
+
+
+                    </div>
+                    <div class="md:w-1/2">
+                        <p class="text-4xl font-poppins">Turning ideas into <span
+                                class="text-yellow-500 text-5xl underline">real life projects</span> is my calling.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- projects -->
+            <div class="md:mt-20 md:px-20 w-full">
+                <h1 class="text-4xl font-semibold p-3">Some project that <span
+                        class="text-yellow-500 text-5xl underline">recently</span> completed</h1>
+                <div class="md:mt-10 flex flex-col ml-4 md:flex-row gap-5">
+                    <a href="https://github.com/mostafizur-raahman/tea-stall-tailwind"><button
+                            class="btn btn-outline text-yellow-500 ">Tea-stall</button></a>
+                    <a href="https://github.com/mostafizur-raahman/Tailwind-movie-website"><button
+                            class="btn btn-outline text-yellow-500 ">Movie-Tailwind</button></a>
+                    <a href="https://github.com/mostafizur-raahman/g3-Architects"><button
+                            class="btn btn-outline text-yellow-500 ">Architects</button></a>
+                    <a href="https://github.com/mostafizur-raahman/Digial-Agency-Website"><button
+                            class="btn btn-outline text-yellow-500 ">Digital-Agency</button></a>
+                </div>
+                <p class="text-center mt-10 py-10">&#169 2023 by Mostafizur Raahman. All Rights Reserved.</p>
+            </div>
+
+
+        </section>
+    </header>
+</body>
+
+</html>
